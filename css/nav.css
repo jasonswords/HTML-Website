@@ -1,0 +1,232 @@
+
+/********************Nav Bar*******************/
+
+
+
+nav
+{
+	border:solid 1em #fff;
+	flex-wrap:wrap;
+	padding-top:25px;
+	padding-bottom:25px;
+	padding-left:1em;
+	padding-right:25px;
+	background-color: #ffffff;
+}
+
+
+
+nav a
+{
+	display:block;
+	text-align:center;
+	text-decoration:none;
+	padding:0.5em;
+}
+
+
+
+nav ul
+{
+	display:flex;
+	display:-webkit-flex;
+	flex-wrap:wrap;
+	-webkit-flex-wrap:wrap;
+	list-style-type:none;
+	padding:0;
+	margin:0;
+}
+
+
+
+nav li
+{
+	flex:1 0 1em;
+	-webkit-flex:1 0 1em;
+	margin:.1em;
+}
+
+
+/**********************  button configuration  *****************/  
+
+
+.button
+{
+	background: #4955FF;
+	padding:  1em;
+	border-radius: 2em;
+	color: #fff;
+	font-size: 1em;
+	font-family:Arial, Sans-Serif;
+	text-decoration: none;
+}
+
+
+
+.button:hover
+{
+	text-decoration:none;
+	background: #D0D04A;
+	color: #4955FF;
+}
+
+
+
+.current_page
+{
+	background: #001a66;
+	padding:  1em;
+	border-radius: 2em;
+	color: #fff;
+	font-size: 1em;
+	font-family:Arial, Sans-Serif;
+	text-decoration: none;
+}
+
+
+
+/********************Helicopter Extra Buttons******************/
+
+
+
+#helicopter_choice
+{
+	padding:.3em;
+	display:flex;
+	flex:1;
+	flex-wrap:wrap;
+}
+
+
+
+#helicopter_choice .helicopter_nitro
+{
+	flex:1;
+	flex-wrap:wrap;
+	text-align:center;
+	display:block;	
+}
+
+
+
+#helicopter_choice .helicopter_nitro a
+{
+	text-decoration:none;
+	background: #4955FF;
+	padding:  1em;
+	border-radius: 2em;
+	color: #fff;
+	font-size: 1em;
+	font-family:Arial, Sans-Serif;
+	text-decoration: none;
+}
+
+
+
+#helicopter_choice .helicopter_electric
+{
+	flex:1;
+	flex-wrap:wrap;
+	text-align:center;
+	display:block;		
+}
+
+
+
+#helicopter_choice .helicopter_electric a
+{
+	text-decoration:none;
+	background: #4955FF;
+	padding:  1em;
+	border-radius: 2em;
+	color: #fff;
+	font-size: 1em;
+	font-family:Arial, Sans-Serif;
+	text-decoration: none;
+}
+
+
+
+/*********************Helicopter Current Page*******************/
+
+
+
+#helicopter_choice .helicopter_nitro .current_page
+{
+	background: #001a66;
+	padding:  1em;
+	border-radius: 2em;
+	color: #fff;
+	font-size: 1em;
+	font-family:Arial, Sans-Serif;
+	text-decoration: none;
+}
+
+
+
+#helicopter_choice .helicopter_electric .current_page
+{
+	background: #001a66;
+	padding:  1em;
+	border-radius: 2em;
+	color: #fff;
+	font-size: 1em;
+	font-family:Arial, Sans-Serif;
+	text-decoration: none;
+}
+
+
+/******************Helicopter Hover**********************************/
+
+
+
+#helicopter_choice .helicopter_electric a:hover
+{
+	text-decoration:none;
+	border-radius: 2em;
+	background: #D0D04A;
+	color: #4955FF;
+	font-size: 1em;
+	font-family:Arial, Sans-Serif;
+	
+}	
+
+
+
+#helicopter_choice .helicopter_nitro a:hover
+{
+	text-decoration:none;
+	border-radius: 2em;
+	background: #D0D04A;
+	color: #4955FF;
+	font-size: 1em;
+	font-family:Arial, Sans-Serif;
+	
+}
+
+
+
+/********************Site Map Page******************************/
+
+
+.sitelinks ul
+{
+list-style-type:none;
+}
+
+
+.sitelinks ul a
+{
+text-decoration:none;
+color:#4955FF;
+}
+
+
+
+.sitelinks ul a:hover
+{
+text-decoration:underline;
+color:purple;
+
+}
+

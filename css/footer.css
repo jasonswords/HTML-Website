@@ -1,0 +1,117 @@
+
+/********************Footer******************/
+
+
+
+footer
+{
+	flex-wrap:wrap;
+	display:flex;
+	padding-top:5px;
+	font:100%;
+	background-color: #4955FF;
+}
+
+
+/*******************Icons************************/
+
+footer .center 
+{
+	flex:1;
+	font-size:1em;
+	padding-top:5em;
+	padding-right:12em;
+	color:white;
+}
+
+
+
+footer .left
+{
+	flex:1;
+	text-align:center;
+	padding-top:2em;
+}
+
+
+
+footer .left ul
+{
+	list-style-type:none;
+}
+
+
+
+footer .right
+{
+	flex:1;
+	text-align:center;
+	padding-top:5em;
+	padding-right:3em;
+	color:white;
+}
+
+
+/********************Site Map**********************************/
+
+
+footer .site_map
+{
+	display:flex;
+}
+
+
+
+footer .site_map .site_map_left ul
+{
+	list-style-type:none;
+}
+
+
+
+footer .site_map .site_map_left h2
+{
+	color:#6600ff;
+	padding-left:1em;
+	text-decoration:underline;
+}
+
+
+footer .site_map .site_map_right ul
+{
+	padding-top:3.3em;
+	list-style-type:none;
+}
+
+
+
+footer .site_map .site_map_left a
+{
+	text-decoration:none;
+	color:white;
+}
+
+
+
+footer .site_map .site_map_right a
+{
+	text-decoration:none;
+	color:white;
+}
+
+
+
+footer .site_map .site_map_left a:hover
+{
+	text-decoration:underline;
+	color:#6600ff;
+}
+
+
+
+footer .site_map .site_map_right a:hover
+{
+	text-decoration:underline;
+	color:#6600ff;
+}
+

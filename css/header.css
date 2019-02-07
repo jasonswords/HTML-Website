@@ -1,0 +1,60 @@
+
+/********************Header****************/
+
+
+
+header
+{
+	flex-wrap:wrap;
+	display:flex;
+	background-color: #4955FF;
+	border:solid 1em #fff;
+	color:black;
+	font:100%;
+	padding:0;
+}
+
+
+
+header .center 
+{
+	flex:1;
+	font-size:1.75em;
+	text-align:center;
+	color:red;
+	padding-top:.7em;
+	h1:#fff;
+}
+
+
+
+header .left
+{
+	flex:1;
+	text-align:center;
+	padding-top:2.2em;
+	padding-bottom:1em;
+}
+
+
+
+header .left img
+{
+	border-radius:5em;
+}
+
+
+header .right
+{
+	flex:1;
+	text-align:center;
+	padding-top:2.2em;
+	padding-bottom:1em;
+}
+
+
+
+header .right img
+{
+	border-radius:5em;
+}
